@@ -2,8 +2,11 @@
 module.exports = {
   content: ["./templates/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        chatgptBlack: "#212121",
+      },
+    },
   },
   plugins: [],
-}
-
+};
